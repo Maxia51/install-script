@@ -29,9 +29,9 @@ brew cask install intellij-idea
 
 brew cask install google-chrome
 
-# chrome
+# discord
 
-brew cask install google-chrome
+brew cask install discord
 
 # Oh My ZSH
 
