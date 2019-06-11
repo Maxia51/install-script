@@ -4,9 +4,6 @@
 # This script will install my basic MacOS configuration
 # In order to run it : you need to run this cmd :
 # chmod 700 ~/path/to/file.sh 
-# Don't forget to install fonts and do some styling on iterm2
-
-$theme = "Agnoster"
 
 # Homebrew : www.brew.sh
 
@@ -32,6 +29,10 @@ brew cask install intellij-idea
 
 brew cask install google-chrome
 
+# chrome
+
+brew cask install google-chrome
+
 # Oh My ZSH
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -42,9 +43,9 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 # Change .zshrc file
 
-sed -i 's/ZSH_THEME=.*/ZSH_THEME='$theme'/' ~/.zshrc
+sed -i -e "s/robbyrussell/agnoster/g" ~/.zshrc
 
-echo "plugins=(git zsh-autosuggestions docker docker-compose npm mvn)" >> ~/.zshrc
+sed -i -e "s/plugins=(git)/plugins=(git zsh-autosuggestions docker docker-compose npm mvn)/g" ~/.zshrc
 
 # Installing fonts
 
@@ -53,3 +54,9 @@ cd fonts
 ./install.sh
 cd ..
 rm -rf fonts
+
+# END OF SCRIPT
+
+
+echo "Done"
+echo "For Iterm2 Customization -> Iterm -> Preference -> { Text : source code pro, Colors -> Load Preset : Solarized Dark }"
