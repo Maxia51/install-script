@@ -15,20 +15,20 @@ chmod 700 ~/path/to/file.sh
 ## Which program this script will install ?
 
 here is a list of all programs : 
-* [] HomeBrew
-* [] Iterm2
-* [] Visual Studio Code
-* [] Docker
-* [] Intellij IDEA
-* [] Google chrome
-* [] Discord
-* [] Oh My ZSH
-  * [] git
-  * [] zsh-autosuggestions
-  * [] docker
-  * [] docker-compose
-  * [] npm
-  * [] mvn
+* [x] HomeBrew
+* [x] Iterm2
+* [x] Visual Studio Code
+* [x] Docker
+* [x] Intellij IDEA
+* [x] Google chrome
+* [x] Discord
+* [x] Oh My ZSH
+  * [x] git
+  * [x] zsh-autosuggestions
+  * [x] docker
+  * [x] docker-compose
+  * [x] npm
+  * [x] mvn
 
 It will also install some fonts : [https://github.com/powerline/fonts](https://github.com/powerline/fonts)
 
