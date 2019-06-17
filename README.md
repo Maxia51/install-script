@@ -9,12 +9,13 @@ This is a personal script which will install everything i need for my computer.
 you need to run this cmd :
 
 ```shell
-chmod 700 ~/path/to/file.sh 
+chmod 700 ~/path/to/file.sh
 ```
 
 ## Which program this script will install ?
 
-here is a list of all programs : 
+here is a list of all programs :
+
 * [x] HomeBrew
 * [x] Iterm2
 * [x] Visual Studio Code
@@ -22,6 +23,7 @@ here is a list of all programs :
 * [x] Intellij IDEA
 * [x] Google chrome
 * [x] Discord
+* [x] Pandoc
 * [x] Oh My ZSH
   * [x] git
   * [x] zsh-autosuggestions

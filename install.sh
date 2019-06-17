@@ -33,6 +33,10 @@ brew cask install google-chrome
 
 brew cask install discord
 
+# Pandoc
+
+brew install pandoc
+
 # Oh My ZSH
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
