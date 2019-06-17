@@ -23,6 +23,7 @@ here is a list of all programs :
 * [x] Intellij IDEA
 * [x] Google chrome
 * [x] Discord
+* [x] NodeJS
 * [x] Pandoc
 * [x] Oh My ZSH
   * [x] git

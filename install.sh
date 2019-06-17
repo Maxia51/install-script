@@ -33,6 +33,10 @@ brew cask install google-chrome
 
 brew cask install discord
 
+# node
+
+brew install node
+
 # Pandoc
 
 brew install pandoc
