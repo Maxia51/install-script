@@ -21,6 +21,10 @@ brew cask install visual-studio-code
 
 brew cask install docker
 
+# java
+
+brew cask install java
+
 # intellij-idea
 
 brew cask install intellij-idea
